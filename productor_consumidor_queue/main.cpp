@@ -31,6 +31,7 @@
 void generarFicheros(){
 
 	//Generamos 100 archivos de texto, con un numero aleatorio cada uno de los archivos
+	//
 
 	std::ofstream ofs;
 	std::srand(std::time(NULL));
