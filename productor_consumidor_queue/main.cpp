@@ -7,6 +7,8 @@
  *
  *     EJERCICIO QUEUE-->LA COLA ES MAS EFICIENTE EN EL USO DE MEMORIA, NO TIENE POR QUE SER CONTIGUA
  *     DIFERENCIA CON VECTOR: VECTOR SI TIENE QUE SER CONTIGUO
+ *
+ *     GitHub
  */
 
 
@@ -59,13 +61,13 @@ void testQueue(){
 			std::cout << "Queue: "<< std::endl;
 			while(!cola.empty()){
 
-	std::cout << "El primer elemento es: " << cola.front() << std::endl << std::endl;
+				std::cout << "El primer elemento es: " << cola.front() << std::endl << std::endl;
 					//cola.front() obtiene el primer elemento de la cola
 
-	 std::cout << "El ultimo elemento es: " << cola.back() << std::endl << std::endl;
+				std::cout << "El ultimo elemento es: " << cola.back() << std::endl << std::endl;
 					//cola.back() obtiene el ultimo elemento de la cola
 
-			cola.pop();
+				cola.pop();
 			//cola.pop() elimina el primer elemento de la cola
 
 
@@ -81,6 +83,7 @@ int main(){
 
 	 //testQueue();
 	 //generarFicheros();
+
 
 
 }
