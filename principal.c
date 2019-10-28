@@ -4,7 +4,7 @@
  *  Created on: 23 oct. 2019
  *      Author: antonio
 
-HOLA
+HOLA, probando desde eclipse
  */
 
 
@@ -33,7 +33,7 @@ int segundos(struct tm *t1, struct tm *t2){
 }
 
 void printTime(struct tm *t1){
-	printf("\n%02d:%02d:%02d", t1->tm_hour, t1->tm_min, t1->tm_sec);
+	printf("\n%02d:%02d:%02d\n", t1->tm_hour, t1->tm_min, t1->tm_sec);
 }
 
 void prueba1(){
